@@ -1,6 +1,35 @@
-p{ margin: 25px
+
+#theheader {font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 56px;
 }
-div {width: 100px;
-    margin: Auto;
-    padding: 275px;
-     }
+h3 {background: blue;
+    width: 3000px;
+}
+div {width: 3000px;
+     border-right-style: inset;
+     border-right-width: 5px;
+     border-right-color: gray;
+     border-bottom-width: 5px;
+     border-bottom-style: inset;
+     border-bottom-color: gray;
+     padding-left: 10px;
+     padding-right: 10px;
+     padding-bottom: 10px;
+     margin-left: 25px;
+     margin-right: 25px;
+     margin-bottom: 25px;
+}
+p { margin: 25px;
+    position: relative;
+    left: 200px;
+    bottom: 200px;
+    font-size: 36px;
+    width: 2800px;
+    word-wrap: break-word;
+}
+.name {text-align: center;
+       font-family: Verdana, Geneva, Tahoma, sans-serif;
+       font-size: 48px;
+       color: whitesmoke;
+       word-wrap: break-word;
+    }
